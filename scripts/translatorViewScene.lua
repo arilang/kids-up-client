@@ -28,8 +28,8 @@ local function translation(strText, from, to)
     
     local TRANSLATION_URL = 'http://api.microsofttranslator.com/V2/Http.svc/Translate'
     
-    local Client_id = "thekidslink_app_program"
-    local Client_secret = "yO5Ppl2bNuZs2IyJBYuKPeSmrTK7dsUFM/z0ocyqW7M="
+    local Client_id = ""
+    local Client_secret = ""
 
     local headers = {}
     headers["Content-Type"] = "application/x-www-form-urlencoded"
